@@ -1,2 +1,0 @@
-# resume
-Carl Graving CV
