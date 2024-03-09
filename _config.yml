@@ -1,116 +1,237 @@
-# Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
-# Content configuration version
 version: 2
 
-# Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Carl Graving
+title: Architect/Backend Engineer
+email: cgraving@gmail.com
+website: https://cgraving.github.io/resume/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username: cgraving
+linkedin_username: carl-g-6a95036
 
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+about_profile_image: images/profile.jpeg
+about_content: |
+  As a Principal Architect at Ronin, I leverage my MS in Electrical Engineering and over 15 years of software
+  engineering and architecture experience to design and implement cloud based micro services that utilize <mark>REST</mark>
+  and streaming systems, such as <mark>Kafka</mark>, with containerized deployments using <mark>Kubernetes</mark> and <mark>Docker</mark>.
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  I work with a technical team of software engineers and developers to bring a plan together and execute it, using
+  <mark>Kotlin</mark>/<mark>Java</mark> and <mark>.NET</mark> languages and frameworks. I also have product and project level architecture experience,
+  as well as project leadership experience, that help me deliver high-quality solutions that meet the needs and
+  expectations of our clients and stakeholders. My mission is to add value and innovation to the software industry,
+  while working on challenging and rewarding projects.
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  Other Skills: <mark>Technical Design</mark>, <mark>SpringBoot</mark>, <mark>Git</mark>, <mark>Coding Standards</mark>, <mark>API</mark>, <mark>Streaming</mark>
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: Project Ronin
+        link: projectronin.com
+        sub_title: Principal Architect
+        caption: August 2023 - March 2024
+        description: |
+          Lead Architecture Review Board to provide an architectural forum where challenges and possible
+          solutions could be discussed and decisions made on how to proceed. In this meeting I was able to keep
+          the group of managers and tech leads on track to come to a pragmatic, actionable plan.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+          Lead Service Guild to provide microservice patterns, practices, and common tooling and code.
+          This coupled with implementing these as shared libraries, common helm charts, and shared CI/CD
+          workflows lead to a standardized service platform with minimal boilerplate code.
+
+          Derived actionable technical requirements and technical design from complex product requirements that
+          required working with many teams within engineering and data science to ensure the proper usage of
+          the FHIR data from the medical systems.
+
+          Mentor engineering teams on building technical designs and building scalable cloud solutions.
+
+      - layout: left
+        title: Project Ronin
+        link: projectronin.com
+        sub_title: Staff Engineer
+        caption: August 2022 - August 2023
+        description: |
+          -----
+          Met weekly with Devops/Platform to ensure we are building and utilizing cloud infrastructure correctly
+          and efficiently. Worked through establishing boundaries between services and platforms to have a clear
+          understanding of how things should work together to maximize functionality and agility.
+
+          Mentor engineering teams on building technical designs and building scalable cloud solutions.
+
+          Lead designs of data pipelines utilizing Kafka, including building common libraries, implementing best
+          practices.
+
+          Lead and Developed features for secure document storage and service.
+
+      - layout: left
+        title: Oracle
+        link: oracle.com
+        sub_title: Architect
+        caption: February 2022 - August 2022
+        description: |
+          -----
+          Architect cloud solutions for applications and how those applications come together to form a complete
+          solution.
+
+          Work with our DevOps teams to implement a Kubernetes infrastructure to deliver our applications to
+          production. With the migration to cloud-native applications and containerized deployment, we have
+          worked to build up our best practices and infrastructure to automate the building of Docker images that
+          then can get deployed into our Kubernetes cluster in Oracle Cloud Infrastructure (OCI).
+
+          Provide architectural oversight for our Next Generation Omni channel contact center solution. This
+          application leveraged Kafka Streams and was deployed into the OCI-based platform that was
+          developed for microservices.
+
+          Provide support for the product management team in business efforts to evolve our applications.
+          Collaborated with VP product managers in Oracle’s Identity solutions to establish if their solution would
+          work for our application and what changes needed to be made.
+
+      - layout: left
+        title: Oracle
+        link: oracle.com
+        sub_title: Applications Architect
+        caption: March 2017 - February 2022
+        description: |
+          -----
+          Teach and train all of the teams on microservice architecture, our microservice infrastructures, and
+          Apache Kafka. Put together training materials and workshops that were presented to multiple offices
+          around the world. Continued work with individual teams on their exact use cases and issues they face.
+
+          Developed libraries and maintained an Inner-Source model for our software development teams to aid
+          in the transition to microservices and leverage new components such as Kafka and Vault. Built this
+          framework in Java, based on Jetty, Jersey, Spring, and Hystrix to help leverage Kafka as a streaming
+          platform and pub/sub, event sourcing and CQRS patterns could be followed while still guaranteeing
+          security between tenants in the multi-tenant environment.
+
+      - layout: left
+        title: Magnite (formerly Rubicon Project)
+        link: magnite.com
+        sub_title: Senior Software Development Engineer
+        caption: March 2015 - March 2017
+        description: |
+          -----
+          Worked on a system to act as an integration platform to be able to interface with many third-party ad
+          servers through one common set of APIs. These APIs were written in java, utilizing spring framework,
+          maven, and other common Java technologies. These APIs were both simple REST data APIs as well as
+          some more complex functional APIs.
+
+          Built REST and microservices in java, utilizing spring framework running a Tomcat web server. These
+          services work together as a part of a global multi-datacenter, multi-tier data system, moving and
+          processing large amounts of data in real-time. This system utilizes multiple storage mechanisms based
+          on the data, use case, and location and availability requirements. For our large volume centralized
+          datastore we are utilizing Apache Cassandra. Even though this holds multiple billion pieces of user
+          data, lookups returned in 2 ms to the service. For our real-time, datacenter centric store we utilize
+          Aerospike high-speed key-value store and its built-in replication. Kafka message queues are used
+          extensively to keep individual services isolated. This isolation ensures all systems are very responsive
+          without losing data. Redis, MySQL, Ehcache are all also used in appropriate capacities within the
+          system.
+
+          During my time as an engineer, a variety of tools such as git for version control, Atlassian products
+          for agile planning, code reviews, GitHub for code reviews, managing pull requests, and Jenkins for
+          continuous integration and build deployments. Amazon AWS systems such as EC2, Opsworks (using
+          Chef), and S3.
+
+      - layout: left
+        title: Oracle
+        link: oracle.com
+        sub_title: Principan Software Engineer
+        caption: November 2007 - March 2015
+        description: |
+          -----
+          While working on the Oracle Service Cloud product, previously RightNow CX, I had the opportunity to
+          work on the Agent Console component of our application. While the majority of this application is written
+          in C# and .NET framework, I regularly interface with Linux servers and work with C, PHP, and MySQL
+          systems.
+
+          I managed a single employee and regularly led technical teams for specific projects. I was responsible
+          for project design, implementation, and coordination for multiple projects per year. These projects
+          ranged in size from 2 developers, to up to 18.
+
+          Some of the key features I was directly involved with the development and design of were:
+          * Desktop Workflow - A set of features used to build and run a customized workflow to guide agents
+          through complex scenarios that could be encountered in service calls.
+          * Agent Scripting - A set of features used to build and run a set of customized scripts to help the agent
+          to know what to say to a caller on the service call.
+          * Guided Assistance - A set of features that can be used to build and run a troubleshooter for either
+          agents, or consumers from the service web pages.
+
+      - layout: left
+        title: TEXbase
+        link: texbase.com
+        sub_title: Software Engineer
+        caption: May 2006 - March 2007
+        description: |
+          -----
+          Worked as the sole engineer, quality assurance, and customer service at this small software company.
+
+          The system was a web application used by the textile industry to manage information. This application
+          utilized a Microsoft SQL database, an ASP.NET web application, and a web service API exposing
+          Microsoft WCF.
+
+          Worked with HTML, CSS, JavaScript, AJAX for the front end.
+
+      - layout: left
+        title: Image Labs International
+        sub_title: Electrical Engineer
+        caption: March 2006 - November 2006
+        description: |
+          -----
+          Worked as a control systems engineer for this company.
+
+          Worked on design, construction, and installation of automated visual inspection systems of catalytic filters.
+
+          Performed small programming projects revolving around controlling image capture and camera motion
+          control.
+
+      - layout: left
+        title: Resodyn Corporation
+        link: resodyn.com
+        sub_title: Electrical Engineer
+        caption: October 2004 - February 2006
+        description: |
+          -----
+          Worked as a control systems engineer designing motion control systems, HMI interface software,
+          embedded software for controllers, and modeling complex mechanical systems.
+
+          Working with resonant mixers that purposefully try to maintain vibration on a resonant frequency as the
+          resonant frequency changes, posing a difficult control problem.
+
+          Performed routine IT work, telephony support, building access, Exchange Server configuration.
+
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Montana State University
+        caption: 2003 - 2009
+        sub_title: MS Electrical Engineering
+        description: |
+          Research Areas of Intelligent Control Systems and the use of Artificial Intelligence for Control System Optimization
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Worked part time 2003 at sutomation engineering firm. Worked full time 2004-2009 while working on research and paper.
+
+      - layout: left
+        title: Montana State University
+        caption: 1999 - 2003
+        sub_title: BS Electrical Engineering
+        description: |
+          Worked for a professor building Beowulf clusters for monitoring hydrogen fuel cells.
+
+          Worked part time for automation engineering firm building an information system for the office.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content: |
+      Alongside my interests in softare I spend the rest of my time:
+      - At Disney World with the family
+      - Camping
+      - Relaxing by the pool
 
 # Footer
 footer_show_references: true
@@ -124,4 +245,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
