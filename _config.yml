@@ -14,10 +14,10 @@ darkmode: false
 github_username: cgraving
 linkedin_username: carl-g-6a95036
 
-#additional_links:
-#  - title: PDF Download
-#    icon: fas fa-file-download
-#    url: https://cgraving.github.io/resume/Resume-Carl-Graving.pdf
+additional_links:
+  - title: PDF Download
+    icon: fas fa-file-download
+    url: https://cgraving.github.io/resume/Resume-Carl-Graving.pdf
 
 about_profile_image: images/profile.jpeg
 about_content: |
