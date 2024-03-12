@@ -14,6 +14,11 @@ darkmode: false
 github_username: cgraving
 linkedin_username: carl-g-6a95036
 
+#additional_links:
+#  - title: PDF Download
+#    icon: fas fa-file-download
+#    url: https://cgraving.github.io/resume/Resume-Carl-Graving.pdf
+
 about_profile_image: images/profile.jpeg
 about_content: |
   As a Principal Architect at Ronin, I leverage my MS in Electrical Engineering and over 15 years of software
